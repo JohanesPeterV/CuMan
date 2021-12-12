@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/like_menu"
+        android:title="@string/filter_like" />
+    <item
+        android:id="@+id/dislike_menu"
+        android:title="@string/filter_dislike" />
+    <item
+        android:id="@+id/day_menu"
+        android:title="@string/filter_day" />
+    <item
+        android:id="@+id/week_menu"
+        android:title="@string/filter_week" />
+    <item
+        android:id="@+id/month_menu"
+        android:title="@string/filter_month" />
+    <item
+        android:id="@+id/year_menu"
+        android:title="@string/filter_year" />
+</menu>

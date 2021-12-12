@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/like_curhat_thumb_up"
+        android:icon="@drawable/ic_thumb_up_icon"
+        android:title="@string/great"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/like_curhat_cool"
+        android:icon="@drawable/ic_cool_icon"
+        android:title="@string/cool"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/like_curhat_love"
+        android:icon="@drawable/ic_love_icon"
+        android:title="@string/love_it"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.binus.cuman">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cuman.SplashScreen">
+        <activity android:name="com.binus.cuman.views.update_password.UpdatePasswordActivity" android:label="@string/title_activity_update_password"></activity>
+        <activity android:name="com.binus.cuman.views.update_profile.UpdateProfileActivity" android:label="@string/title_activity_update_profile"/>
+        <activity android:name="com.binus.cuman.views.notification.NotificationActivity" android:label="@string/title_activity_notif"/>
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name="com.binus.cuman.views.change_password.ChangePasswordActivity"
+            android:label="Input Password" />
+        <activity
+            android:name="com.binus.cuman.views.register.RegisterActivity"
+            android:label="@string/title_activity_register" /> <!-- <activity -->
+        <!-- android:name=".views.notification_page.NotificationActivity" -->
+        <!-- android:label="@string/title_activity_notification"/> -->
+        <activity android:name="com.binus.cuman.views.feedback.FeedbackActivity" android:label="@string/title_activity_feedback"/>
+        <activity android:name="com.binus.cuman.submitData.SubmitDataActivity" android:label="@string/title_activity_submit_data"/>
+        <activity android:name="com.binus.cuman.InsertFeedbackActivity" android:label="@string/title_activity_insert_feedback"/>
+        <activity android:name="com.binus.cuman.views.settings.SettingsActivity" android:label="@string/title_activity_settings"/>
+        <activity android:name="com.binus.cuman.views.update_curhat.UpdateCurhatActivity" android:label="@string/title_activity_update_curhat"/>
+        <activity
+            android:name="com.binus.cuman.views.login.LoginActivity"
+            android:label="cuman">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.binus.cuman.views.insert_curhat.InsertCurhatActivity" android:label="@string/title_activity_insert_curhat"/>
+        <activity android:name="com.binus.cuman.views.curhat_detail.CurhatDetailActivity" android:label="@string/title_activity_curhat_detail"/>
+        <activity android:name="com.binus.cuman.MainActivity" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/cuman" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/primary_blue" />
+
+        <service
+            android:name="com.binus.cuman.services.MyFirebaseMessagingServices"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.binus.cuman.services.NotificationBroadcastReceiver" />
+    </application>
+
+</manifest>

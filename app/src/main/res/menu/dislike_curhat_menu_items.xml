@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dislike_curhat_thumb_down"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@drawable/ic_thumb_down_icon"
+        android:title="@string/bad" />
+    <item
+        android:id="@+id/dislike_curhat_angry"
+        android:icon="@drawable/ic_angry_icon"
+        android:title="@string/mad" />
+</menu>

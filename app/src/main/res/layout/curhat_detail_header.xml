@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:cardCornerRadius="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/curhat_detail_action_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/transparent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/baseline_more_vert_24" />
+
+                <TextView
+                    android:id="@+id/curhat_detail_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                    android:textColor="@color/primary_blue"
+                    app:layout_constraintBottom_toBottomOf="@+id/curhat_detail_user_image"
+                    app:layout_constraintStart_toEndOf="@+id/curhat_detail_user_image"
+                    app:layout_constraintTop_toTopOf="@+id/curhat_detail_user_image" />
+
+                <TextView
+                    android:id="@+id/curhat_detail_edited"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="32dp"
+                    android:text="@string/edited"
+                    android:textColor="#CCCCCC"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/curhat_detail_user_image"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/baseline_account_circle_18"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/curhat_detail_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#999"
+                    android:text="@string/date_placeholder"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/curhat_detail_user_image" />
+
+                <TextView
+                    android:id="@+id/curhat_detail_content"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/curhat_content_placeholder"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textColor="?android:attr/textColorSecondary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/curhat_detail_date" />
+
+                <ImageButton
+                    android:id="@+id/curhat_detail_thumb_up_btn"
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/transparent"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:src="@drawable/outline_thumb_up_24"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/curhat_detail_content" />
+
+                <ImageButton
+                    android:id="@+id/curhat_detail_thumb_down_btn"
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:src="@drawable/outline_thumb_down_24"
+                    app:layout_constraintBottom_toBottomOf="@+id/curhat_detail_thumb_up_btn"
+                    app:layout_constraintStart_toEndOf="@+id/curhat_detail_thumb_up_btn"
+                    app:layout_constraintTop_toTopOf="@+id/curhat_detail_thumb_up_btn" />
+
+                <TextView
+                    android:id="@+id/curhat_detail_like_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/countNumber"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/curhat_detail_thumb_up_btn"
+                    app:layout_constraintStart_toStartOf="@+id/curhat_detail_thumb_up_btn"
+                    app:layout_constraintTop_toBottomOf="@+id/curhat_detail_thumb_up_btn" />
+
+                <TextView
+                    android:id="@+id/curhat_detail_dislike_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/countNumber"
+                    app:layout_constraintEnd_toEndOf="@+id/curhat_detail_thumb_down_btn"
+                    app:layout_constraintStart_toEndOf="@+id/curhat_detail_thumb_up_btn"
+                    app:layout_constraintTop_toBottomOf="@+id/curhat_detail_thumb_down_btn" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/curhat_detail_comment_header_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/outline_comment_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+        <TextView
+            android:id="@+id/curhat_detail_comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/comment_count_background"
+            android:text="8 Comments"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/curhat_detail_comment_header_img2"
+            app:layout_constraintStart_toEndOf="@+id/curhat_detail_comment_header_img2"
+            app:layout_constraintTop_toTopOf="@+id/curhat_detail_comment_header_img2" />
+
+        <ImageButton
+            android:id="@+id/curhat_detail_header_info_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/transparent"
+            android:padding="8dp"
+            android:tint="@color/primary_blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2"
+            app:srcCompat="@drawable/baseline_info_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

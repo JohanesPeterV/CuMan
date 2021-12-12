@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cuman</string>
+
+    <string name="hottest">Terpopuler</string>
+    <string name="newest">Terbaru</string>
+    <string name="topic">Topik</string>
+    <string name="search">Cari</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="settings">Pengaturan</string>
+    <string name="profile">Profil</string>
+    <string name="profile_page_title">Halaman Profil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_placeholder">16 Apr 2021 @ 10.29</string>
+    <string name="image_content_placeholder">Image Placeholder</string>
+    <string name="curhat_content_placeholder">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs</string>
+    <string name="curhat_card_like_desc">Sukai Curhat</string>
+    <string name="curhat_card_dislike_desc">Benci Curhat</string>
+    <string name="view_more">Lihat Lebih</string>
+    <string name="curhat_comment_count_viewholder">4</string>
+    <string name="hottest_curhat_text">Curhat Terpopuler</string>
+    <string name="new_curhat">Curhat Baru</string>
+    <string name="insert_curhat_content">Apa yang ada dipikiran anda?</string>
+    <string name="insert_curhat_content_hint">Konten</string>
+    <string name="choose_topic">Pilih Topik</string>
+    <string name="add_curhat">Tambahkan Curhat</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="welcome">"Selamat Datang !"</string>
+    <string name="login_invalid_username">Email tidak ditemukan/Email Invalid </string>
+    <string name="login_invalid_password">Kata Sandi Salah</string>
+    <string name="register_invalid_email_taken">Email sudah diambil!</string>
+    <string name="register_invalid_email_format">Format Email tidak valid!</string>
+    <string name="register_invalid_username">UserName tidak valid</string>
+    <string name="register_invalid_confirm_password">Konfirmasi kata sandi harus sesuai dengan kata sandi</string>
+    <string name="register_invalid_password">Kata sandi tidak valik</string>
+    <string name="login_failed">"Login gagal"</string>
+    <string name="title_activity_register">Registrasi</string>
+    <string name="invalid_username">Username tidak valid</string>
+    <string name="invalid_password">Kata Sandi harus >5 karakter</string>
+
+    <string name="action_sign_in">Sign in or registrasi</string>
+    <string name="prompt_password">Kata Sandi</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="add_comment">Tambahkan sebuah komen...</string>
+    <string name="add">Tambah</string>
+    <string name="filte_by_topic">Filter</string>
+    <string name="find_more_topic">Temukan topik lain</string>
+    <string name="is_anonymous">Anonymous</string>
+    <string name="curhat_id_label">Curhat ID</string>
+    <string name="recent_curhat_text">Curhat Terbaru</string>
+    <string name="submit_data_text">Kumpul Data</string>
+    <string name="delete_account">Hapus Account</string>
+    <string name="send_feedback_btn" >Kirim Feedback</string>
+    <string name="update">Perbarui</string>
+    <string name="delete">Hapus</string>
+    <string name="update_curhat">Perbarui Curhat</string>
+    <string name="recent_reply_text">Balasan Terbaru</string>
+    <string name="search_topic">Cari Topik</string>
+    <string name="search_hint">Cari Curhat</string>
+    <string name="cancel">Batalkan</string>
+    <string name="great">Bagus</string>
+    <string name="cool">Keren</string>
+    <string name="love_it">Mantap</string>
+    <string name="update_password_hint">Perbarui kata sandi</string>
+    <string name="old_password_hint">Kata sandi lama</string>
+    <string name="new_password_hint">Kata sandi baru</string>
+    <string name="change_password">Ganti kata sandi</string>
+    <string name="update_user_profile" >Perbarui User Profile</string>
+    <string name="update_profile">Perbarui Profile</string>
+
+    <string name="bad">Jelek</string>
+    <string name="mad">Gak banget</string>
+    <string name="show_more">Tunjukan Lebih</string>
+    <string name="enable_notif">Nyalakan Notifikasi</string>
+    <string name="change_font_size">Ganti ukuran font</string>
+    <string name="submit_button_text">Kumpul</string>
+    <string name="send_feedback">Kirim Feedback</string>
+    <string name="how_could_we_improve">Bagaimana kita dapat meningkatkan cuman?</string>
+    <string name="mark_feedback_solved">Tandai sebagai Terselesaikan</string>
+    <string name="pending">Menunggu</string>
+    <string name="view_feedback">Lihat Feedbacks</string>
+    <string name="solved">Selesai</string>
+    <string name="example">Contoh:</string>
+    <string name="filter_like">Urutkan berdasarkan like terbanyak</string>
+    <string name="filter_dislike">Urutkan berdasarkan dislike terbanyak</string>
+    <string name="filter_day">Filter curhat yang di post 24 jam terakhir</string>
+    <string name="filter_week">Filter curhat yang di post 1 minggu terakhir</string>
+    <string name="filter_month">Filter curhat yang di post 1 bulan terakhir</string>
+    <string name="filter_year">Filter curhats posted last 1 year</string>
+    <string name="confirm_delete_account">Apakah kamu yakin ingin menghapus akun ini ?</string>
+    <string name="delete_account_success">Akun berhasil di hapus</string>
+    <string name="countNumber">0</string>
+    <string name="dob_hint">Tanggal Lahir</string>
+
+    <string name="password_hint">Kata Sandi</string>
+    <string name="title_activity_notification">Notifikasi</string>
+    <string name="login_emptyE">Email tidak boleh kosong</string>
+    <string name="login_emptyP">Kata Sandi tidak boleh kosong</string>
+    <string name="login_wrongE">User tidak ditemukan</string>
+    <string name="login_wrongP">Kata sandi salah</string>
+    <string name="hello_world">Hello Square World!</string>
+    <string name="user_name_hint" >UserName</string>>
+
+    <string name="confirm_password">Konfirmasi Kata sandi</string>
+    <string name="title_activity_change_password">Kata sandi</string>
+    <string name="nf_show_more">Tunjukan lebih</string>
+    <string name="sorted_by">Urutkan berdasar:</string>
+    <string name="most_liked">Like terbanyak</string>
+    <string name="most_disliked">Dislike terbanyak</string>
+    <string name="posted_24_hours">24 Jam terakhir</string>
+    <string name="posted_one_week">Satu minggu terakhir</string>
+    <string name="posted_one_month">Satu bulan terakhir</string>
+    <string name="posted_one_year">Satu tahun terakhir</string>
+    <string name="view">Lihat</string>
+    <string name="posted_at">Di post pada</string>
+    <string name="logout">Keluar</string>
+    <string name="replied_at">Dibalas pada</string>
+    <string name="view_replied_curhat">Lihat curhat</string>
+    <string name="no_post">Tidak ada yang di-post</string>
+    <string name="joined_at">Masuk pada</string>
+    <string name="click_photo_to_update">Tekan foto untuk ganti</string>
+    <string name="already_have_account">Sudah punya akun? Login</string>
+    <string name="commented_on_your_curhat">mengomentari:</string>
+    <string name="title_activity_feedback">Imbal Balik</string>
+    <string name="title_activity_submit_data">Kirim Data</string>
+    <string name="title_activity_insert_feedback">Masukkan Feedback</string>
+    <string name="title_activity_settings">Pengaturan</string>
+    <string name="title_activity_update_curhat">Perbarui Curhat</string>
+    <string name="title_activity_insert_curhat">Masukkan Curhat</string>
+    <string name="title_activity_curhat_detail">Detail Curhat</string>
+    <string name="title_activity_notif">Pemberitahuan</string>
+    <string name="title_activity_update_profile">Perbarui Profil</string>
+    <string name="title_activity_update_password">Perbarui Kata Sandi</string>>
+
+
+
+
+
+
+
+    <string name="toast_update_succesfully">Curhat berhasil diperbarui</string>
+    <string name="content_empty_error">Konten tidak boleh kosong</string>
+
+    <string name="toast_curhat_dl">Curhat berhasil ditidak-sukai!</string>
+    <string name="toast_curhat_l">Curhat berhasil disukai!</string>
+
+    <string name="toast_img_up">Gambar berhasil di upload!</string>
+    <string name="feedback_mnbe">Feedback tidak boleh kosong</string>
+
+
+    <string name="toast_fsd">Feedback berhasil di hapus!</string>
+    <string name="toast_comment_s">Komen berhasil ditambahkan!</string>
+    <string name="toast_feedback_s">Feedback berhasil ditambahkan!</string>
+    <string name="toast_cds">Comment berhasil dihapus</string>
+    <string name="toast_pus">Profile berhasil diupdate!</string>
+
+    <string name="err_ucbe">Nama tidak boleh kosong</string>
+    <string name="toast_psu">Kata sandi berhasil di diperbarui</string>
+
+
+    <string name="validate_ue">UserName tidak boleh kosong</string>
+    <string name="validate_ee">Email tidak boleh kosong</string>
+    <string name="validate_ef">Format Email tidak valid</string>
+    <string name="validate_pl">Kata sandi minimal 6 huruf</string>
+    <string name="validate_pcp">Konfirmasi kata sandi harus sesuai dengan kata sandi</string>
+    <string name="validate_une">Email sudah digunakan</string>
+    <string name="validate_uu">User tidak ditemukan!</string>
+
+    <string name="success_dela">Akun berhasil di delete</string>
+    <string name="fail_dela">Delete akun gagal, coba ulang!</string>
+    <string name="here">sini</string>
+
+    <string name="dont_have_acc">Tidak punya akun? Register di </string>
+
+    <string name="toast_gsgf">Sign in gagal, silahkan coba lagi!</string>
+
+    <string name="set_password">Set Kata Sandi</string>
+    <string name="curhats_posted">curhat telah dipost</string>
+    <string name="replies_posted">balasan telah dipost</string>
+    <string name="change_password_value">Ganti Kata Sandi</string>
+    <string name="gender_lbl">Jenis kelamin: </string>
+    <string name="age_lbl">Umur: </string>
+
+    <string name="gender">jenis kelamin</string>
+    <string name="age">umur</string>
+    <string name="edited">(diedit)</string>
+    <string name="date">Tanggal</string>
+    <string name="err_relog">Sebuah error telah terjadi, coba ulang!</string>
+    <string name="login_google">Log in dengan Google</string>
+    <string name="register_google">Register dengan Google</string>
+    <string name="wrong_old">Kata sandi lama salah</string>
+    <string name="marked_solved">Ditandai sebagai salah</string>
+    <string name="marked_solveq">Tandai feedback sudah Solved ?</string>
+    <string name="sureq">Apakah anda yakin ?</string>
+    <string name="yes">Iya</string>
+    <string name="no">Tidak</string>
+    <string name="add_curhat_success">Berhasil menambahkan curhat baru!</string>
+    <string name="curhat_topic_validation">Topik tidak boleh kosong</string>
+    <string name="curhat_content_validation">Konten Curhat tidak boleh kosong</string>
+    <string name="aditional_info">Info Tambahan</string>
+    <string name="add_comment_val">Komen tidak boleh kosong</string>
+    <string name="no_feedback">Tidak ada feedback</string>
+    <string name="year"> tahun)</string>
+    <string name="at">pada</string>
+    <string name="comment">balasan</string>
+    <string name="ausure">Apakah anda yakin ?</string>
+    <string name="female">Perempuan</string>
+    <string name="male">Laki-laki</string>
+    <string name="default_topic">biarkan kosong untuk menggunakan topik yang dipakai sekarang</string>
+    <string name="current">sekarang</string>
+    <string name="no_notification">Tidak ada notifikasi</string>
+    <string name="sd_validate">Tanggal lahir tidak boleh kosong</string>
+    <string name="input_password">Masukan Kata Sandi</string>
+    <string name="regist_error">Sebuah error telah terjadi, silahkan coba lagi</string>
+
+</resources>
+

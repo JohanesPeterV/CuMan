@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "421264466214",
+    "project_id": "cuman-app",
+    "storage_bucket": "cuman-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421264466214:android:192fb76e2613fcff0721e7",
+        "android_client_info": {
+          "package_name": "com.binus.cuman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421264466214-bk4rph45hurnfeq3h4vpqt72fg37oc10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.binus.cuman",
+            "certificate_hash": "b4aa8f7dada2cf68bf9cb0f758d4c28a4e3727ba"
+          }
+        },
+        {
+          "client_id": "421264466214-j264lrpmk8u61t5tijojfll59com7kp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3g15yEcGgMv6k2VDR2vJ0N0AHI2eWoD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421264466214-j264lrpmk8u61t5tijojfll59com7kp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/hottest_menu_item"
+        android:icon="@drawable/baseline_home_20"
+        android:title="@string/hottest"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/newest_menu_item"
+        android:icon="@drawable/baseline_today_24"
+        android:title="@string/newest"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/topic_menu_item"
+        android:icon="@drawable/baseline_category_24"
+        android:title="@string/topic"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/search_menu_item"
+        android:icon="@drawable/baseline_search_20"
+        android:title="@string/search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/profile_menu_item"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/profile"
+        app:showAsAction="always" />
+</menu>
