@@ -11,9 +11,31 @@
         <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/drawable/ic_launcher_background.xml" value="0.30833333333333335" />
         <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/drawable/ic_love_icon.xml" value="0.30833333333333335" />
         <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/drawable/splash_image.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_change_password.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_curhat_detail.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_feedback.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_insert_curhat.xml" value="0.35688405797101447" />
         <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_login.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_notification.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_register.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_settings.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_submit_data.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/activity_update_curhat.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/curhat_card_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/curhat_comment_card_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/curhat_detail_header.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/curhat_info_popup.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/feedback_card_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/filter_popup_choice.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/no_post_placeholder.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/layout/profile_posted_curhat_card_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/menu/action_bar_items.xml" value="0.67" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/menu/curhat_detail_action_items.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/menu/dislike_curhat_menu_items.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/menu/filter_menu.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/menu/like_curhat_menu_items.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/menu/menu_items.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/mipmap-anydpi-v26/cuman_logo.xml" value="0.30833333333333335" />
         <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/User/Documents/2301864461/Semester 5/entre/cuman/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22135416666666666" />

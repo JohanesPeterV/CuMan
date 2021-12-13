@@ -33,7 +33,7 @@
         <activity android:name="com.binus.cuman.views.update_curhat.UpdateCurhatActivity" android:label="@string/title_activity_update_curhat"/>
         <activity
             android:name="com.binus.cuman.views.login.LoginActivity"
-            android:label="cuman">
+            android:label="CuMan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

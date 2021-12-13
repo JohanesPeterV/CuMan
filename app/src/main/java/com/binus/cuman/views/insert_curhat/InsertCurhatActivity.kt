@@ -24,6 +24,7 @@ class InsertCurhatActivity : AppCompatActivity() {
         setTopicAutocomplete()
         onAddCurhat()
 
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
@@ -45,7 +46,8 @@ class InsertCurhatActivity : AppCompatActivity() {
 
     private fun setTopicAutocomplete() {
         topicAutoCompleteView = findViewById(R.id.update_topic_auto_complete)
-        val adapter = TopicAutoCompleteAdapter(this, android.R.layout.simple_list_item_1, topicsString)
+        val adapter =
+            TopicAutoCompleteAdapter(this, android.R.layout.simple_list_item_1, topicsString)
         topicAutoCompleteView.threshold = 1
         topicAutoCompleteView.setAdapter(adapter)
     }
@@ -55,10 +57,11 @@ class InsertCurhatActivity : AppCompatActivity() {
         val addBtn: Button = findViewById(R.id.insert_feedback_btn)
         val content: TextView = findViewById(R.id.insert_feedback_content_edit_text)
         val anonymousCheckbox: CheckBox = findViewById(R.id.update_set_anonymous_checkbox)
+        anonymousCheckbox.isChecked = true;
 
         addBtn.setOnClickListener {
             if (content.text.isEmpty()) {
-                content.error =getString(R.string.curhat_content_validation)
+                content.error = getString(R.string.curhat_content_validation)
             } else if (topicAutoCompleteView.text.isEmpty()) {
                 topicAutoCompleteView.error = getString(R.string.curhat_topic_validation)
             } else {
@@ -76,17 +79,22 @@ class InsertCurhatActivity : AppCompatActivity() {
         val isAnonymous = anonymousCheckbox.isChecked
         if (topicIndex == -1) {
             val newTopic = topicAutoCompleteView.text.toString()
-            CurhatTopicRepository.addTopic(newTopic, callback = {newTopicId ->
+            CurhatTopicRepository.addTopic(newTopic, callback = { newTopicId ->
                 CurhatRepository.addCurhat(content.text.toString(), isAnonymous, newTopicId) {
                     moveToMainActivity()
                 }
             })
         } else {
-            CurhatRepository.addCurhat(content.text.toString(), isAnonymous, topics.get(topicIndex).id) {
+            CurhatRepository.addCurhat(
+                content.text.toString(),
+                isAnonymous,
+                topics.get(topicIndex).id
+            ) {
                 moveToMainActivity()
             }
         }
-        Toast.makeText(it.context, getString(R.string.add_curhat_success), Toast.LENGTH_SHORT).show()
+        Toast.makeText(it.context, getString(R.string.add_curhat_success), Toast.LENGTH_SHORT)
+            .show()
 
     }
 
